@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+#clickButton {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 50px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    position: absolute;
+    transition: transform 0.3s, background-color 0.3s, left 0.5s, top 0.5s;
+}
